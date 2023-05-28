@@ -1,0 +1,140 @@
+{
+		"modal": {
+			"save": {
+				"title": "Enregistrer la personnalisation",
+				"description": "Tu resteras moche"
+			},
+			"exit": {
+				"title": "Quitter la personnalisation",
+				"description": "Aucune modification ne sera enregistrée"
+			},
+			"accept": "Oui",
+			"decline": "Non"
+		},
+		"ped": {
+			"title": "Ped",
+			"model": "Model"
+		},
+		"headBlend": {
+			"title": "Héritage",
+			"shape": {
+				"title": "Visage",
+				"firstOption": "Père",
+				"secondOption": "Mère",
+				"mix": "Mix"
+			},
+			"skin": {
+				"title": "Peau",
+				"firstOption": "Père",
+				"secondOption": "Mère",
+				"mix": "Mix"
+			}
+		},
+		"faceFeatures": {
+			"title": "Face Features",
+			"nose": {
+				"title": "Nez",
+				"width": "Largeur",
+				"height": "Hauteur",
+				"size": "Taille",
+				"boneHeight": "Bone height",
+				"boneTwist": "Bone twist",
+				"peakHeight": "Peak height"
+			},
+			"eyebrows": {
+				"title": "Sourcils",
+				"height": "Hauteur",
+				"depth": "Profondeur"
+			},
+			"cheeks": {
+				"title": "Joues",
+				"boneHeight": "Bone height",
+				"boneWidth": "Bone width",
+				"width": "Largeur"
+			},
+			"eyesAndMouth": {
+				"title": "Yeux et Bouche",
+				"eyesOpening": "Eyes opening",
+				"lipsThickness": "Lip thickness"
+			},
+			"jaw": {
+				"title": "Mâchoire",
+				"width": "Largeur",
+				"size": "Taille"
+			},
+			"chin": {
+				"title": "Menton",
+				"lowering": "Lowering",
+				"length": "Length",
+				"size": "Size",
+				"hole": "Hole size"
+			},
+			"neck": {
+				"title": "Cou",
+				"thickness": "Épaisseur"
+			}
+		},
+		"headOverlays": {
+			"title": "Apparence",
+			"hair": {
+				"title": "Cheveux",
+				"style": "Style",
+				"color": "Couleur",
+				"highlight": "Highlight"
+			},
+			"opacity": "Opacité",
+			"style": "Style",
+			"color": "Couleur",
+			"blemishes": "Imperfections",
+			"beard": "Barbe",
+			"eyebrows": "Sourcils",
+			"ageing": "Ageing",
+			"makeUp": "Make up",
+			"blush": "Bblush",
+			"complexion": "Complexion",
+			"sunDamage": "Sun damage",
+			"lipstick": "Rouge à lèvres",
+			"moleAndFreckles": "Mole and Freckles",
+			"chestHair": "Poils du torse",
+			"bodyBlemishes": "Imperfections du corps",
+			"eyeColor": "Couleur des yeux"
+		},
+		"components": {
+			"title": "Vêtements",
+			"drawable": "Drawable",
+			"texture": "Texture",
+			"mask": "Masque",
+			"upperBody": "Mains",
+			"lowerBody": "Jambes",
+			"bags": "Sacs et Parachute",
+			"shoes": "Chaussures",
+			"scarfAndChains": "Écharpe et Chaînes",
+			"shirt": "Shirt",
+			"bodyArmor": "Gilet pare-balles",
+			"decals": "Decals",
+			"jackets": "Vestes"
+		},
+		"props": {
+			"title": "Objets",
+			"drawable": "Drawable",
+			"texture": "Texture",
+			"hats": "Chapeaux et Casques",
+			"glasses": "Lunettes",
+			"ear": "Oreille",
+			"watches": "Montres",
+			"bracelets": "Bracelets"
+		},
+		"tattoos": {
+			"title": "Tattoos",
+			"items": {
+			"ZONE_TORSO": "Torse",
+			"ZONE_HEAD": "Visage",
+			"ZONE_LEFT_ARM": "Bras gauche",
+			"ZONE_RIGHT_ARM": "Bras droit",
+			"ZONE_LEFT_LEG": "Jambe gauche",
+			"ZONE_RIGHT_LEG": "Jambe droite"
+			},
+			"apply": "Appliquer", 
+			"delete": "Supprimer"
+		}
+	}

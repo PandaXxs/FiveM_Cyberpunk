@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Menu Emotes</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico" />
+
+    <!-- Stylesheet -->
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- google fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Jost:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- responsive -->
+    <link rel="stylesheet" href="./css/responsive.css" />
+</head>
+
+<body>
+    <!-- start menu emotion  -->
+    <div class="menu_emotion_design">
+        <div class="main_section">
+            <div class="line line2"></div>
+            <div class="line line3"></div>
+            <div class="logo">
+                <a href="#"><img src="assets/images/logo.png" alt="Logo image" /></a>
+                <p>
+                    Dans ce menu, vous pouvez choisir les animations que vous souhaitez pour votre personnage
+                </p>
+            </div>
+
+            <!-- ----- Choose Bind Dialog  ----->
+            <div class="keybinsDialog">
+                <h4>Sélectionnez le bind</h4>
+                <div>
+                    <button id="keybindBtn1">
+                        Bind 1
+                    </button>
+                    <button id="keybindBtn2">
+                        Bind 2
+                    </button>
+                    <button id="keybindBtn3">
+                        Bind 3
+                    </button>
+                    <button id="keybindBtn4">
+                        Bind 4
+                    </button>
+                    <button id="keybindBtn5">
+                        Bind 5
+                    </button>
+                    <button id="keybindBtn6">
+                        Bind 6
+                    </button>
+                </div>
+                <span id="closeBtn">
+                    <i class="fa-solid fa-xmark"></i>
+                </span>
+            </div>
+
+            <!-- ----- Full tabs  ----->
+            <div class="menu_full_tabs">
+                <div class="tabs_menu">
+                    <div class="menu_top">
+                        <ul class="nav" role="tablist">
+                            <li role="presentation">
+                                <a class="active" href="#m1" aria-controls="1" role="tab" data-toggle="tab">
+                                    <div class="m_img">
+                                        <img src="assets/images/v1.png" alt="Menu image" />
+                                    </div>
+                                    <span>DANSE</span>
+                                </a>
+                            </li>
+                            <li role="presentation">
+                                <a href="#m2" aria-controls="2" role="tab" data-toggle="tab">
+                                    <div class="m_img">
+                                        <img src="assets/images/v2.png" alt="Menu image" />
+                                    </div>
+                                    <span>SPECIALE</span>
+                                </a>
+                            </li>
+                            <li role="presentation">
+                                <a href="#m3" aria-controls="3" role="tab" data-toggle="tab">
+                                    <div class="m_img">
+                                        <img src="assets/images/v3.png" alt="Menu image" />
+                                    </div>
+                                    <span>STYLE DE MARCHE</span>
+                                </a>
+                            </li>
+                            <li role="presentation">
+                                <a href="#m4" aria-controls="4" role="tab" data-toggle="tab">
+                                    <div class="m_img">
+                                        <img src="assets/images/v4.png" alt="Menu image" />
+                                    </div>
+                                    <span>COMMUNICATION</span>
+                                </a>
+                            </li>
+                            <li role="presentation">
+                                <a href="#m5" aria-controls="5" role="tab" data-toggle="tab">
+                                    <div class="m_img">
+                                        <img src="assets/images/v5.png" alt="Menu image" />
+                                    </div>
+                                    <span>EMOTIONS</span>
+                                </a>
+                            </li>
+                            <li role="presentation">
+                                <a href="#m6" aria-controls="6" role="tab" data-toggle="tab">
+                                    <div class="m_img">
+                                        <img src="assets/images/v6.png" alt="Menu image" />
+                                    </div>
+                                    <span>FAVORIS</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="bottom_img">
+                        <div class="line line1"></div>
+                        <img src="assets/images/key-binds.png" alt="img">
+                    </div>
+                </div>
+
+                <div class="all_tabs_content">
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="m1">
+                            <div class="tabs_all_con">
+                                <div class="tabs_search_sort">
+                                    <div class="search">
+                                        <input type="search" placeholder="Rechercher les emoji par nom..." />
+                                        <div class="icon">
+                                            <img src="assets/images/search.png" alt="Image" />
+                                        </div>
+                                    </div>
+                                    <div class="tags_sort">
+                                        <h5>Sort</h5>
+                                        <ul>
+                                            <li><a class="active" href="#">Alphabétiquement</a></li>
+                                            <!--<li><a href="#">Often Used</a></li>-->
+                                        </ul>
+                                    </div>
+
+                                    <div class="common_content over1" id="emojisMainContent">
+                                    </div>
+                                    <div class="common_content over1 over2" id="bindedEmotes">
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="m2">
+                            <div class="tabs_all_con">
+                                <div class="tabs_search_sort">
+                                    <div class="search">
+                                        <input type="search" placeholder="Rechercher les emoji par nom..." />
+                                        <div class="icon">
+                                            <img src="assets/images/search.png" alt="Image" />
+                                        </div>
+                                    </div>
+                                    <div class="tags_sort">
+                                        <h5>Sort</h5>
+                                        <ul>
+                                            <li><a class="active" href="#">Alphabétiquement</a></li>
+                                            <!--<li><a href="#">Often Used</a></li>-->
+                                        </ul>
+                                    </div>
+
+                                    <div class="common_content over1" id="emojisMainContent">
+                                    </div>
+
+                                    <div class="common_content over1 over2" id="bindedEmotes">
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="m3">
+                            <div class="tabs_all_con">
+                                <div class="tabs_search_sort">
+                                    <div class="search">
+                                        <input type="search" placeholder="Rechercher les emoji par nom..." />
+                                        <div class="icon">
+                                            <img src="assets/images/search.png" alt="Image" />
+                                        </div>
+                                    </div>
+                                    <div class="tags_sort">
+                                        <h5>Sort</h5>
+                                        <ul>
+                                            <li><a class="active" href="#">Alphabétiquement</a></li>
+                                            <!--<li><a href="#">Often Used</a></li>-->
+                                        </ul>
+                                    </div>
+
+                                    <div class="common_content over1" id="emojisMainContent">
+                                    </div>
+
+                                    <div class="common_content over1 over2" id="bindedEmotes">
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="m4">
+                            <div class="tabs_all_con">
+                                <div class="tabs_search_sort">
+                                    <div class="search">
+                                        <input type="search" placeholder="Rechercher les emoji par nom..." />
+                                        <div class="icon">
+                                            <img src="assets/images/search.png" alt="Image" />
+                                        </div>
+                                    </div>
+                                    <div class="tags_sort">
+                                        <h5>Sort</h5>
+                                        <ul>
+                                            <li><a class="active" href="#">Alphabétiquement</a></li>
+                                            <!--<li><a href="#">Often Used</a></li>-->
+                                        </ul>
+                                    </div>
+
+                                    <div class="common_content over1" id="emojisMainContent">
+                                    </div>
+
+                                    <div class="common_content over1 over2" id="bindedEmotes">
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div role="tabpanel" class="tab-pane" id="m5">
+                            <div class="tabs_all_con">
+                                <div class="tabs_search_sort">
+                                    <div class="search">
+                                        <input type="search" placeholder="Rechercher les emoji par nom..." />
+                                        <div class="icon">
+                                            <img src="assets/images/search.png" alt="Image" />
+                                        </div>
+                                    </div>
+                                    <div class="tags_sort">
+                                        <h5>Sort</h5>
+                                        <ul>
+                                            <li><a class="active" href="#">Alphabétiquement</a></li>
+                                            <!--<li><a href="#">Often Used</a></li>-->
+                                        </ul>
+                                    </div>
+
+                                    <div class="common_content over1" id="emojisMainContent">
+                                    </div>
+
+                                    <div class="common_content over1 over2" id="bindedEmotes">
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="m6">
+                            <div class="tabs_all_con">
+                                <div class="tabs_search_sort">
+                                    <div class="search">
+                                        <input type="search" placeholder="Rechercher les emoji par nom..." />
+                                        <div class="icon">
+                                            <img src="assets/images/search.png" alt="Image" />
+                                        </div>
+                                    </div>
+                                    <div class="tags_sort">
+                                        <h5>Sort</h5>
+                                        <ul>
+                                            <li><a class="active" href="#">Alphabétiquement</a></li>
+                                            <!--<li><a href="#">Often Used</a></li>-->
+                                        </ul>
+                                    </div>
+
+                                    <div class="common_content over1" id="emojisMainContent">
+                                    </div>
+
+                                    <div class="common_content over1 over2" id="bindedEmotes">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="m7">
+                            <div class="tabs_all_con">
+                                <div class="tabs_search_sort">
+                                    <div class="search">
+                                        <input type="search" placeholder="Search anim by name..." />
+                                        <div class="icon">
+                                            <img src="assets/images/search.png" alt="Image" />
+                                        </div>
+                                    </div>
+                                    <div class="tags_sort">
+                                        <h5>Sort</h5>
+                                        <ul>
+                                            <li><a class="active" href="#">Alphabétiquement</a></li>
+                                            <!--<li><a href="#">Often Used</a></li>-->
+                                        </ul>
+                                    </div>
+
+                                    <div class="common_content over1" id="emojisMainContent">
+                                    </div>
+
+                                    <div class="common_content over1 over2" id="bindedEmotes">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- -----End  Full tabs  ----->
+        </div>
+    </div>
+    <!-- End menu emotion  -->
+
+    <!-- Js Files -->
+    <!-- modernizr -->
+    <script src="./js/vendor/modernizr-3.5.0.min.js"></script>
+    <!-- jQuery -->
+    <script src="./js/vendor/jquery-3.2.1.min.js"></script>
+    <!-- Bootstrap Popper -->
+    <script src="./js/popper.js"></script>
+    <!-- Bootstrap -->
+    <script src="./js/bootstrap.min.js"></script>
+    <!-- Custom Scripts -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
