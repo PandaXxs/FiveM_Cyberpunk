@@ -1,0 +1,31 @@
+<CVehicleModelInfoVariation>
+  <variationData>
+<Item>
+<modelName>atlus</modelName>
+<colors>
+<Item>
+<indices content="char_array">
+112
+54
+0
+28
+112
+</indices>
+</Item>
+</colors>
+      <kits>
+        <Item>922_atlus_modkit</Item>
+      </kits>
+	        <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Standard White</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+		</plateProbabilities>
+<lightSettings value="922" />
+<sirenSettings value="38" />
+</Item>
+  </variationData>
+</CVehicleModelInfoVariation>
