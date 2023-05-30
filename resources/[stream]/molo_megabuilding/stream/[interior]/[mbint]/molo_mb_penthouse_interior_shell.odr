@@ -1,0 +1,178 @@
+Version 165 32
+{
+	Shaders
+	{
+		default_spec.sps
+		{
+			DiffuseSampler molo_mb_penthouse_interior_shell\Wood049_1K_Color.otx
+			UseTessellation 0.00000000
+			SpecularIntensityMult 0.12500000
+			SpecularFalloffMult 100.00000000
+			SpecularFresnel 0.97000000
+		}
+		normal.sps
+		{
+			DiffuseSampler molo_mb_penthouse_interior_shell\P_Gold2.otx
+			BumpSampler molo_mb_penthouse_interior_shell\Prop_Glass_n.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 2.00000000
+			SpecularIntensityMult 0.60000000
+			SpecularFalloffMult 100.00000000
+			SpecularFresnel 0.70000000
+		}
+		normal.sps
+		{
+			DiffuseSampler molo_mb_penthouse_interior_shell\Leather037_1K_Color.otx
+			BumpSampler molo_mb_penthouse_interior_shell\Leather037_1K_NormalDX.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 2.06000000
+			SpecularIntensityMult 0.12500000
+			SpecularFalloffMult 100.00000000
+			SpecularFresnel 0.97000000
+		}
+		default_spec.sps
+		{
+			DiffuseSampler molo_mb_penthouse_interior_shell\Wood051_1K_Color.otx
+			UseTessellation 0.00000000
+			SpecularIntensityMult 0.12500000
+			SpecularFalloffMult 100.00000000
+			SpecularFresnel 0.97000000
+		}
+		default_spec.sps
+		{
+			DiffuseSampler molo_mb_penthouse_interior_shell\Metal046B_1K_Color.otx
+			UseTessellation 0.00000000
+			SpecularIntensityMult 0.12500000
+			SpecularFalloffMult 100.00000000
+			SpecularFresnel 0.97000000
+		}
+		default_spec.sps
+		{
+			DiffuseSampler molo_mb_penthouse_interior_shell\Marble016_1K_Color.otx
+			UseTessellation 0.00000000
+			SpecularIntensityMult 0.12500000
+			SpecularFalloffMult 100.00000000
+			SpecularFresnel 0.97000000
+		}
+		default.sps
+		{
+			DiffuseSampler molo_mb_penthouse_interior_shell\Sans_titre.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+		}
+		normal_spec.sps
+		{
+			DiffuseSampler molo_mb_penthouse_interior_shell\RSN_AM_Hedge_03.otx
+			BumpSampler molo_mb_penthouse_interior_shell\RSN_AM_Hedge_03_N.otx
+			SpecSampler molo_mb_penthouse_interior_shell\RSN_AM_Hedge_03_S.otx
+			HardAlphaBlend 0.01000000
+			UseTessellation 0.00000000
+			WetnessMultiplier 0.00000000
+			Bumpiness 0.55000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 0.35000000
+			SpecularFalloffMult 32.00000000
+			SpecularFresnel 0.90000000
+		}
+		default.sps
+		{
+			DiffuseSampler molo_mb_penthouse_interior_shell\molossen.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+		}
+		emissive.sps
+		{
+			DiffuseSampler molo_mb_penthouse_interior_shell\prop_battle_lights_tube_edgy.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			EmissiveMultiplier 2.00000000
+		}
+		default.sps
+		{
+			DiffuseSampler 000001C4B23A90F0
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+		}
+		default_spec.sps
+		{
+			DiffuseSampler molo_mb_penthouse_interior_shell\Marble024_1K_Color.otx
+			UseTessellation 0.00000000
+			SpecularIntensityMult 0.12500000
+			SpecularFalloffMult 127.43680000
+			SpecularFresnel 0.97000000
+		}
+		gta_spec.sps
+		{
+			DiffuseSampler molo_mb_penthouse_interior_shell\tl_dlc_vw_casino_floor_01.otx
+			SpecSampler molo_mb_penthouse_interior_shell\tl_dlc_vw_casino_floor_01_s.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 0.12500000
+			SpecularFalloffMult 100.00000000
+			SpecularFresnel 0.97000000
+		}
+		glass_breakable.sps
+		{
+			DiffuseSampler molo_mb_penthouse_interior_shell\os_glass_dirtygz_glass_dirty_a.otx
+			BumpSampler molo_mb_penthouse_interior_shell\gz_v_dirtyglass2b_n.otx
+			SpecSampler molo_mb_penthouse_interior_shell\os_glass_dirty_s.otx
+			DecalTint 1.00000000 1.00000000 1.00000000 1.00000000
+			BrokenSpecularColor 0.46000000 0.61176500 0.61176500 1.00000000
+			BrokenDiffuseColor 0.46000000 0.61176500 0.61176500 0.56862700
+			UseTessellation 0.00000000
+			Bumpiness 1.00000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 0.12500000
+			SpecularFalloffMult 100.00000000
+			SpecularFresnel 0.97000000
+		}
+		default_spec.sps
+		{
+			DiffuseSampler molo_mb_penthouse_interior_shell\Prop_chrome_clean.otx
+			UseTessellation 0.00000000
+			SpecularIntensityMult 0.92500000
+			SpecularFalloffMult 509.59360000
+			SpecularFresnel 0.97000000
+		}
+		glass_env.sps
+		{
+			DiffuseSampler molo_mb_penthouse_interior_shell\prop_green_glassprop_green_glass_a.otx
+			BumpSampler molo_mb_penthouse_interior_shell\tl_v_bank2_glass_n.otx
+			SpecSampler molo_mb_penthouse_interior_shell\prop_base_white_full.otx
+			UseTessellation 0.00000000
+			Bumpiness 0.50000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 0.90000000
+			SpecularFalloffMult 300.00000000
+			SpecularFresnel 0.80000000
+		}
+		emissive.sps
+		{
+			DiffuseSampler molo_mb_penthouse_interior_shell\yellow.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			EmissiveMultiplier 4.73760000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		Center -2.01178400 0.71677640 0.30356070
+		Radius 16.52760000
+		AABBMin -15.28567000 -7.93759400 -4.39390300
+		AABBMax 11.26210000 9.37114700 5.00102400
+		High 9998.00000000
+		{
+			molo_mb_penthouse_interior_shell\molo_mb_penthouse_interior_shell_high.mesh 0
+		}
+		Med 9998.00000000
+		Low 9998.00000000
+		Vlow 9998.00000000
+	}
+	Joints null
+	Light null
+	Bound null
+}
