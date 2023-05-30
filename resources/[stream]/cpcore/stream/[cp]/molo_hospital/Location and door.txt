@@ -1,0 +1,14 @@
+Hi and thank's for buy Cyberpunk Pillbox.
+You can custom all of my textures on "molo_h_txt.ytd"
+
+
+Location : pillbox
+
+
+Name doors : 
+molo_h_door1
+molo_h_door2
+molo_h_door3
+molo_h_door4
+
+Include a elevator script !
