@@ -1,0 +1,32 @@
+<CVehicleModelInfoVariation>
+  <variationData>
+<Item>
+<modelName>emperorncpd</modelName>
+<colors>
+<Item>
+<indices content="char_array">
+51
+112
+0
+0
+21
+28
+</indices>
+</Item>
+</colors>
+      <kits>
+        <Item>957_emperorncpd_modkit</Item>
+      </kits>
+	        <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+		</plateProbabilities>
+<lightSettings value="957" />
+<sirenSettings value="38" />
+</Item>
+  </variationData>
+</CVehicleModelInfoVariation>
